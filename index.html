@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Assignment - Som Dwivedi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="canvas-container"></div>
+        
+        <div class="ui-panel" id="controlPanel">
+            <div class="toggle-btn" id="toggleBtn">◀</div>
+            
+            <div class="panel-header">
+                <div class="panel-title">Solar System Controls</div>
+                <button class="theme-toggle" id="themeToggle">☀️ Light</button>
+            </div>
+            
+            <div class="control-group">
+                <div class="control-header">
+                    <div class="control-title">Animation</div>
+                    <button class="pause-btn" id="pauseBtn">⏸️ Pause</button>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <div class="control-title">Planet Speeds</div>
+                <div id="planetControls"></div>
+            </div>
+        </div>
+        
+        <div class="info-panel" id="infoPanel">
+            <div class="info-title" id="infoTitle">Planet Info</div>
+            <div class="info-content" id="infoContent"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
